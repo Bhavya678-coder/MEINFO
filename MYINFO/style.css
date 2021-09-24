@@ -1,0 +1,40 @@
+h1 {
+    color: peru;
+}
+*{
+   border: solid;
+}
+
+.header{
+background-color: rgb(162, 255, 0);
+display: flex;
+justify-content: space-between;
+}
+
+.site-description{
+     display: flex;
+      flex-direction: column;
+       justify-content: first baseline; 
+    }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #548000
+}
+
+p,h2{ 
+    
+    background-color:#667311;
+    text-align: center; 
+}
+body{
+     
+    background-color: #875678;
+}
